@@ -1,0 +1,9 @@
+[package]
+name = "run"
+version = "0.1.0"
+authors = ["Sean Kerr <sean@code-box.org>"]
+
+[dependencies]
+egl       = "0.2.4"
+opengles  = "0.1.1"
+videocore = "0.1.2"

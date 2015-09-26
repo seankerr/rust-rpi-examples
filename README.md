@@ -10,4 +10,6 @@ There are several APIs exposed by the Raspberry Pi:
 
 ## Available Examples
 
-* [Broadcom VideoCore IV: Change background color](https://github.com/seankerr/rust-rpi-examples/tree/master/videocore/change-background-color)
+### Broadcom VideoCore IV
+
+* [Change background color](https://github.com/seankerr/rust-rpi-examples/tree/master/videocore/change-background-color)

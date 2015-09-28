@@ -17,3 +17,4 @@ There are several APIs exposed by the Raspberry Pi:
 *OpenGL ES 2.0*
 
 * [Hello OpenGL](https://github.com/seankerr/rust-rpi-examples/tree/master/opengles/hello_opengl)
+* [Triangle](https://github.com/seankerr/rust-rpi-examples/tree/master/opengles/triangle)

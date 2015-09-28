@@ -134,6 +134,9 @@ fn init_egl(window: &mut Window) -> Context {
         panic!("Failed to make EGL current context");
     }
 
+    // remove the vsync/swap interval
+    egl::swap_interval(egl_display, 0);
+
     Context{ config:  egl_config,
              context: egl_context,
              display: egl_display,

@@ -4,6 +4,6 @@ version = "0.1.0"
 authors = ["Sean Kerr <sean@code-box.org>"]
 
 [dependencies]
-egl       = "0.2.4"
+egl       = "0.2.5"
 opengles  = "0.1.2"
 videocore = "0.1.2"

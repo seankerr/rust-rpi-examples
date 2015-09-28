@@ -41,8 +41,7 @@ fn gl_loop(context: Context) {
 
     gl::viewport(0, 0, dimensions.width as i32, dimensions.height as i32);
 
-    // loop for 60 frames and paint the screen purple
-    for _ in 0 .. 60 {
+    loop {
         gl::clear_color(1.0, 0.0, 1.0, 1.0);
         gl::clear(gl::GL_COLOR_BUFFER_BIT);
 
@@ -137,8 +136,8 @@ fn main() {
     // setup the source rectangle where opengl will be drawing
     let mut src_rect = Rect{ x:      0,
                              y:      0,
-                             width:  (dimensions.width as i32) << 16,
-                             height: (dimensions.height as i32) << 16 };
+                             width:  0,
+                             height: 0 };
 
     // draw opengl context on a clean background (cleared by the clear color)
     let mut alpha = VCAlpha{ flags:   FlagsAlpha::FIXED_ALL_PIXELS,

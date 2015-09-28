@@ -2,14 +2,15 @@
 name = "run"
 version = "0.1.0"
 dependencies = [
- "egl 0.2.4",
+ "egl 0.2.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "opengles 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "videocore 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "egl"
-version = "0.2.4"
+version = "0.2.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "khronos 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "libc 0.1.10 (registry+https://github.com/rust-lang/crates.io-index)",

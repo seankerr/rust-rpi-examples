@@ -237,8 +237,8 @@ fn main() {
     // setup the source rectangle where opengl will be drawing
     let mut src_rect = Rect{ x:      0,
                              y:      0,
-                             width:  (dimensions.width as i32) << 16,
-                             height: (dimensions.height as i32) << 16 };
+                             width:  0,
+                             height: 0 };
 
     // draw opengl context on a clean background (cleared by the clear color)
     let mut alpha = VCAlpha{ flags:   FlagsAlpha::FIXED_ALL_PIXELS,
